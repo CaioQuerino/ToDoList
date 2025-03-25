@@ -1,0 +1,21 @@
+@use '../1-base/variables'
+    
+button
+    background-color: variables.$bg-btn
+    color: variables.$font-color-btn
+    padding: 5px variables.$pd-btn
+    border: none
+    margin-right: 10px
+    border-radius: variables.$bd-radius
+    cursor: pointer
+    opacity: 0.8
+    transition: .3s
+
+    &:hover
+        opacity: 1
+
+.complete
+    background-color: variables.$btn-complete
+
+.remove
+    background-color: variables.$btn-remove

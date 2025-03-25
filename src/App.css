@@ -1,0 +1,89 @@
+* {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+body {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #f4f4f4;
+  background-image: url("src/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.todo-form {
+  padding-bottom: 1rem;
+}
+.todo-form input, .todo-form select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.todo {
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 1;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.remove {
+  background-color: #d9534f;
+}
+
+/*# sourceMappingURL=App.css.map */
